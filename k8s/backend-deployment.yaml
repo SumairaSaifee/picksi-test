@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: sumairasaifee/backend
+        image: sumairasaifee/backend:v2
         ports:
         - containerPort: 5000

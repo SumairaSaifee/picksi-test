@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: sumairasaifee/frontend
+        image: sumairasaifee/frontend:v2
         ports:
         - containerPort: 80

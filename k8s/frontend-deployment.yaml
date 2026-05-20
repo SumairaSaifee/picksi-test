@@ -16,6 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: sumairasaifee/frontend:v2
+        image: sumairasaifee/frontend:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 80

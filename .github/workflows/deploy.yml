@@ -27,7 +27,7 @@ jobs:
 
       # Frontend Image
       - name: Build Frontend Image
-        run: docker build -t sumairasaifee/frontend:v2 ./frontend
+        run: docker build -t sumairasaifee/frontend:latest ./frontend
 
       - name: Push Frontend Image
-        run: docker push sumairasaifee/frontend:v2
+        run: docker push sumairasaifee/frontend:latest

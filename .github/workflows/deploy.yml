@@ -20,10 +20,10 @@ jobs:
 
       # Backend Image
       - name: Build Backend Image
-        run: docker build -t sumairasaifee/backend:v2 ./backend
+        run: docker build -t sumairasaifee/backend:latest ./backend
 
       - name: Push Backend Image
-        run: docker push sumairasaifee/backend:v2
+        run: docker push sumairasaifee/backend:latest
 
       # Frontend Image
       - name: Build Frontend Image

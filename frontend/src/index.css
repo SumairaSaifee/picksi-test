@@ -5,7 +5,7 @@
 
 body {
   margin: 0;
-  background: linear-gradient(90deg, #6d28d9, #8b5cf6);
+  background: red;
   font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
   color: #e5e7eb;
 }

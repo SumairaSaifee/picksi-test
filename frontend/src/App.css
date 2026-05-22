@@ -150,7 +150,7 @@
 
 .landing-container {
   min-height: 100vh;
-  background: linear-gradient(135deg, #f8fafc, #eef2ff);
+  background: pink;
   display: flex;
   flex-direction: column;
 }

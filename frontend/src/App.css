@@ -456,7 +456,7 @@
 
 .question-page {
   min-height: 100vh;
-  background: linear-gradient(135deg, #f8fafc, #eef2ff);
+  background: pink;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -546,7 +546,7 @@
 
 .thinking-theme {
   min-height: 100vh;
-  background: linear-gradient(135deg, #f8fafc, #eef2ff);
+  background: pink;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -576,7 +576,7 @@
 
 .result-theme {
   min-height: 100vh;
-  background: linear-gradient(135deg, #f8fafc, #eef2ff);
+  background: pink;
   display: flex;
   align-items: center;
   justify-content: center;

@@ -528,7 +528,7 @@ export default function App() {
       <div className="landing-hero">
         <div className="landing-hero-bg" />
         <div className="hero-badge"><span className="badge-dot" />AI-Powered Restaurant Decisions</div>
-        <h1 className="landing-title">Stop Overthinking.<br />Let <span className="highlight">Picksi</span> Decide.</h1>
+        <h1 className="landing-title">Stop Overthinking.<br />Let <span className="highlight">Picksi</span> Decide.HELLO</h1>
         <p className="landing-subtitle">Answer 5 quick questions and get an AI-picked restaurant near you — tailored to your mood, budget, and company.</p>
         <div className="hero-cta-group">
           <button className="btn-hero" onClick={() => setScreen("q1")} disabled={locationStatus === "idle"}>🍽️ Find My Restaurant</button>

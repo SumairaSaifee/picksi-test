@@ -1,3 +1,4 @@
+import './App.css';
 import { useState, useEffect, useRef } from "react";
 import { auth } from "./firebase";
 import {

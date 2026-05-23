@@ -1,3 +1,5 @@
+name: Deploy to K8s
+
 on:
   push:
     branches:
@@ -10,6 +12,8 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Login to DockerHub
         run: |
@@ -41,4 +45,6 @@ jobs:
           git config user.name "GitHub Actions"
           git add k8s/
           git commit -m "Update image tags to ${{ github.sha }}"
-          git push
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
